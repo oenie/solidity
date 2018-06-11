@@ -11,6 +11,7 @@ Breaking Changes:
  * Introduce ``emit`` as a keyword instead of parsing it as identifier.
  * Type Checker: Disallow arithmetic operations for Boolean variables.
  * Disallow trailing dots that are not followed by a number.
+ * Disallow declaring empty structs.
  * Remove assembly instructions ``sha3`` and ``suicide``
 
 Language Features:
